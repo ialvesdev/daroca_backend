@@ -19,5 +19,5 @@ primary_region = "iad"
 
 [checks]
   [checks.http_check]
-  timeout = "60s"
-  interval = "30s"
+  timeout = "60s"
+  interval = "30s"
