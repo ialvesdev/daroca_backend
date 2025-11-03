@@ -1,0 +1,15 @@
+spring.application.name=daroca
+
+# URL de conexão local (PostgreSQL)
+spring.datasource.url=jdbc:postgresql://localhost:5432/darocabd
+spring.datasource.driverClassName=org.postgresql.Driver
+
+# CREDENCIAIS
+spring.datasource.username=postgres
+spring.datasource.password=
+
+# JPA (HIBERNATE)
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+server.address=0.0.0.0
