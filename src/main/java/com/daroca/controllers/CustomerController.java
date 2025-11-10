@@ -18,13 +18,7 @@ public class CustomerController {
     public CustomerController(CustomerRepository repository){
         this.repository = repository;
     }
-    
-    
-    @GetMapping("/status")
-    public ResponseEntity<String> status() {
-        return ResponseEntity.ok("API Daroca: Status OK!"); 
-    }
-        
+      
     @GetMapping
     public ResponseEntity<List<Customer>> all(){
         return ResponseEntity.ok(repository.findAll());
